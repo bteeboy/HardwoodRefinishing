@@ -11,6 +11,16 @@ body {
     font-size: 16px;
 }
 
+.brand-block {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* gap: 12px; */
+}
+
+#logo-svg {
+    padding-top: 50%;
+}
+
 .w3-half img {
     margin-bottom: -6px;
     margin-top: 16px;
@@ -20,4 +30,8 @@ body {
 
 .w3-half img:hover {
     opacity: 1
+}
+
+.w3-container {
+    padding: 0.01em 16px;
 }
