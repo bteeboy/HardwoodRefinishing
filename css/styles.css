@@ -51,11 +51,16 @@ body {
         font-size: 18px !important;
     }
 
+    #top-bar-logo {
+        height: 7%;
+        width: 7%;
+    }
+
 }
 
 @media (max-width: 768px) {
     .w3-xlarge {
-        font-size: 24px !important;
+        font-size: 20px !important;
     }
 
 }
