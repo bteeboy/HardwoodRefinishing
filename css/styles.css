@@ -46,7 +46,28 @@ body {
     padding: 0.01em 16px;
 }
 
-@media (max-width: 500px) {
+#services-div {
+    border-color: #f44336;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+}
+
+.services-icon {
+    height: 35%;
+    width: 35%;
+}
+
+.services-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #f44336;
+}
+
+@media (max-width: 470px) {
     .w3-xlarge {
         font-size: 18px !important;
     }
