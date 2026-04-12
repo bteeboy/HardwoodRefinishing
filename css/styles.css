@@ -21,11 +21,12 @@ body {
     padding-top: 50%;
     height: 75%;
     width: 75%;
+    background-color: aqua;
 }
 
 #top-bar-logo {
-    height: 10%;
-    width: 10%;
+    height: 8%;
+    width: 8%;
     margin-left: 5%
 }
 
