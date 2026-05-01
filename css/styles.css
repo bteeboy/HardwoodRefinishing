@@ -7,7 +7,7 @@ h5 {
     font-family: "Poppins", sans-serif
 }
 
-p {
+#emphasis-p {
     padding-top: 5em;
     padding-bottom: 5em;
 }
@@ -35,7 +35,9 @@ body {
     margin-left: 5%
 }
 
-
+/* .links-div {
+    background-color: white;
+} */
 
 .w3-half img {
     margin-bottom: -6px;
@@ -74,31 +76,37 @@ body {
     text-decoration-color: #f44336;
 }
 
-.footer {
+#services-p {
     text-align: center;
 }
 
-.footer-link {
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
     cursor: pointer;
 }
 
 /* unvisited link */
-a:link {
+.footer :link {
     color: #f44336;
 }
 
 /* visited link */
-a:visited {
+.footer a:visited {
     color: #f44336;
 }
 
 /* mouse over link */
-a:hover {
+.footer a:hover {
     color: hotpink;
 }
 
 /* selected link */
-a:active {
+.footer a:active {
     color: blue;
 }
 
