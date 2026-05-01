@@ -7,6 +7,11 @@ h5 {
     font-family: "Poppins", sans-serif
 }
 
+p {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
 body {
     font-size: 16px;
 }
@@ -21,7 +26,7 @@ body {
     padding-top: 50%;
     height: 75%;
     width: 75%;
-    background-color: aqua;
+
 }
 
 #top-bar-logo {
@@ -54,18 +59,47 @@ body {
 .services-grid {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 1.5rem;
+    row-gap: 5em;
+
 }
 
 .services-icon {
-    height: 35%;
-    width: 35%;
+    width: 15%;
+
 }
 
 .services-underline {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-decoration-color: #f44336;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-link {
+    cursor: pointer;
+}
+
+/* unvisited link */
+a:link {
+    color: #f44336;
+}
+
+/* visited link */
+a:visited {
+    color: #f44336;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
 
 @media (max-width: 470px) {
