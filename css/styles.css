@@ -3,7 +3,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+button {
     font-family: "Poppins", sans-serif
 }
 
@@ -19,8 +20,56 @@ body {
 .brand-block {
     display: grid;
     grid-template-columns: 60% 40%;
+    display: flex;
     /* gap: 12px; */
 }
+
+.cta-sidebar {
+    background-color: white;
+    width: 100%;
+    margin-top: 10%;
+    border-radius: 8px;
+    border: none;
+    color: #f44336;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button-div {
+
+    position: fixed;
+    top: 5%;
+    right: 2%;
+    width: 10%;
+    height: 10%;
+
+    justify-content: space-between;
+    display: none;
+    z-index: 5;
+}
+
+.cta-big {
+    display: inline;
+    background-color: #f44336;
+    /* margin-top: 10%; */
+    border-radius: 8px;
+    border: none;
+    color: white;
+    opacity: 85%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 45%;
+    height: 100%;
+    z-index: 5;
+}
+
+
 
 #logo-svg {
     padding-top: 50%;
@@ -67,7 +116,7 @@ body {
 }
 
 .services-icon {
-    width: 15%;
+    width: 20%;
     margin-left: 15%;
 }
 
@@ -85,6 +134,19 @@ body {
     display: flex;
     justify-content: center;
 
+}
+
+.footer-title {
+    color: #f44336;
+}
+
+.footer-main-title {
+    width: 100%;
+}
+
+.footer-sub-title {
+    display: inline;
+    padding: 2.5%;
 }
 
 a {
@@ -167,6 +229,19 @@ a {
 
     #top-bar-text {
         font-size: 35px !important;
+    }
+
+    body {
+        font-size: 26px;
+    }
+
+
+
+}
+
+@media (min-width: 992px) {
+    .cta-button-div {
+        display: flex;
     }
 
 }
