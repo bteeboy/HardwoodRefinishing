@@ -153,6 +153,21 @@ a {
     cursor: pointer;
 }
 
+.other-logo-top-div {
+    display: block;
+}
+
+.other-logo {
+    display: block;
+    height: 15%;
+    max-height: 300px;
+    padding: 5%;
+}
+
+.other-logo-title {
+    color: #f44336;
+}
+
 /* unvisited link */
 .footer :link {
     color: #f44336;
@@ -220,6 +235,7 @@ a {
         width: 7%;
     }
 
+
 }
 
 @media (min-width: 768px) {
@@ -242,6 +258,17 @@ a {
 @media (min-width: 992px) {
     .cta-button-div {
         display: flex;
+    }
+
+}
+
+@media (min-width: 2000px) {
+    .other-logo-top-div {
+        display: flex;
+    }
+
+    .other-logo {
+        height: 50%;
     }
 
 }
