@@ -173,6 +173,10 @@ a {
     color: #f44336;
 }
 
+.process-image {
+    width: 50%;
+}
+
 /* visited link */
 .footer a:visited {
     color: #f44336;
