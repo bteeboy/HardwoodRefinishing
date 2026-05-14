@@ -138,6 +138,7 @@ body {
 
 .footer-title {
     color: #f44336;
+    /* display: block; */
 }
 
 .footer-main-title {
@@ -145,7 +146,7 @@ body {
 }
 
 .footer-sub-title {
-    display: inline;
+    display: block;
     padding: 2.5%;
 }
 
@@ -174,7 +175,7 @@ a {
 }
 
 .process-image {
-    width: 50%;
+    width: 60%;
 }
 
 /* visited link */
